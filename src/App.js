@@ -1,15 +1,24 @@
 
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
-import Title from './components/Title';
 
+var one = 3;
 function App({data}) {
-  return (
-    <div className="App">
-      <h1>Sample React App {data}</h1>
+
+  if ( one == 3) {
+    return (
+      <>
+      <Footer/>
+      </>
+    )
+  } else {
+    return (
+      <>
       <Header/>
-    </div>
-  );
+      </>
+    )
+  }
 }
 
 export default App;
