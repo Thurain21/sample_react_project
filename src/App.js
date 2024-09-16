@@ -1,24 +1,14 @@
 
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import UseStateFunction from './components/useStateFunction';
 
-var one = 3;
+
 function App({data}) {
-
-  if ( one == 3) {
     return (
       <>
-      <Footer/>
+        <UseStateFunction/>
       </>
     )
-  } else {
-    return (
-      <>
-      <Header/>
-      </>
-    )
-  }
 }
 
 export default App;
