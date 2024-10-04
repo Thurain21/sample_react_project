@@ -3,9 +3,11 @@ import Title from "./Title";
 
 const Header = () => {
   return (
-    <>
-      <Title data="Learning React js" />
-    </>
+    
+      <div>
+        <Title data="Learning React js" />
+      </div>
+    
   );
 };
 
